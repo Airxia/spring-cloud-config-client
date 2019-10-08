@@ -28,18 +28,18 @@ public class SpringCloudConfigClientApplication {
 	/**
 	 * @desc 自定义Bootstrap配置属性资源 --jarluo
 	 */
-	@Configuration
+	/*@Configuration
 	@Order(Ordered.HIGHEST_PRECEDENCE)
 	public static class MyPropertySourceLocator implements PropertySourceLocator {
 
 		@Override
 		public PropertySource<?> locate(Environment environment) {
 			Map<String,Object> source = new HashMap();
-			source.put("server.port","9090");
+			source.put("server.port","9098");
 			MapPropertySource propertySource = new MapPropertySource("my-property-source",source);
 			return propertySource;
 		}
-	}
+	}*/
 	/**
 	 * @desc 自定义Bootstrap配置属性资源 --官网实现
 	 */
